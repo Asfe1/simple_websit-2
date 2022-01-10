@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    margin: 0;
+    
+  
+}
+.banner{
+     display: flex; 
+     
+     height: 70vh;
+    border: 1px solid black;
+}
+.half-width{
+    width: 50%;
+}
+.banner-left{
+    flex: 1;
+    border: 2px solid red;
+    margin: auto;
+    padding-left:30px ;
+    padding-right:30px ;
+    
+}
+.banner-right{
+    flex: 1;
+    border: 2px solid red;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* padding: 100px; */
+}
+.banner-right img{
+width: 50%;
+}
+
+/* .banner-right img{
+    box-shadow: 10px 10px 30px rgb(116, 116, 113);
+    border-radius: 50%;
+    margin-left: 100px;
+    transition: transform 1s; 
+}
+.banner-right img:hover{
+    transform: scale(115%);
+}
+.banner-right img{
+     width: 450px; 
+     border-radius: 50%;
+}
+
+.banner-left h1{
+    font-size: 80px;
+    margin: 0%;
+   visibility: hidden;
+   transition:tarnsform 1s;
+
+}
+.banner-left:hover h1{
+    visibility: visible;
+    transform: none;
+    
+} */
