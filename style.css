@@ -31,14 +31,137 @@ body{
 }
 .banner-right img{
 width: 50%;
+transition: transform 1s; 
 }
 
-/* .banner-right img{
+
+.banner-right img:hover{
+    transform: scale(115%);
+}
+.banner-right img{
     box-shadow: 10px 10px 30px rgb(116, 116, 113);
     border-radius: 50%;
     margin-left: 100px;
     transition: transform 1s; 
 }
+.banner-left h1{
+    font-size: 80px;
+    margin: 0%;
+   white-space: nowrap;
+   position: relative;
+   color: transparent;
+   
+   
+
+}
+.banner-left h1::before
+{
+    content:'Asfe All Arafath';
+    position: absolute;
+  
+    color: #22bedd;
+    animation: typing 4s linear infinite;
+}
+@keyframes typing {
+    0%{
+        content:'A|' ;
+    }
+    4%{
+        content:'As|' ;
+    }
+    8%{
+        content:'Asf|' ;
+    }
+    12%{
+        content:'Asfe|' ;
+    }
+    16%{
+        content:'Asfe A|' ;
+    }
+    20%{
+        content:'Asfe Al|' ;
+    }
+    024%{
+        content:'Asfe All|' ;
+    }
+    028%{
+        content:'Asfe All A|' ;
+    }
+    32%{
+        content:'Asfe All Ar|' ;
+    }
+    36%{
+        content:'Asfe All Ara|' ;
+    }
+    40%{
+        content:'Asfe All Araf|' ;
+    }
+    44%{
+        content:'Asfe All Arafa|' ;
+    }
+    48%{
+        content:'Asfe All Arafat|' ;
+    }
+    52%{
+        content:'Asfe All Arafath|' ;
+    }
+    56%,
+    83%{
+        content:'Asfe All Arafath|' ;
+    }
+    84%{
+        content:'Asfe All Arafat|' ;
+    }
+    85%{
+        content:'Asfe All Arafa|' ;
+    }
+    
+    86%{
+        content:'Asfe ALL Araf|' ;
+    } 
+    
+    87%{
+        content:'Asfe All Ara|' ;
+    }
+    
+    88%{
+        content:'Asfe All Ar|' ;
+    }
+    
+    89%{
+        content:'Asfe All A|' ;
+    }
+    
+    90%{
+        content:'Asfe Al|' ;
+    }
+    92%{
+        content:'Asfe A|' ;
+    }
+    93%{
+        content:'Asfe|' ;
+    }
+    95%{
+        content:'Asf|' ;
+    }
+    97%{
+        content:'As|' ;
+    }
+    98%{
+      content:'A|' ;
+    }
+    98%{
+        content:'|' ;
+      }
+
+    100%{
+        content:'|' ;
+    }
+    
+   
+    
+}
+/* 
 .banner-right img:hover{
     transform: scale(115%);
 }
@@ -47,13 +170,7 @@ width: 50%;
      border-radius: 50%;
 }
 
-.banner-left h1{
-    font-size: 80px;
-    margin: 0%;
-   visibility: hidden;
-   transition:tarnsform 1s;
 
-}
 .banner-left:hover h1{
     visibility: visible;
     transform: none;
